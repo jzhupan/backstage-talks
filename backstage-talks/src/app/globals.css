@@ -1,0 +1,42 @@
+.title-text{
+    float: left;
+}
+.contact-text{
+    align-items: baseline;
+    float: right;
+    text-align: right;   
+}
+
+.container {
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+.scroll-container {
+    display: block;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.body-container{
+    display: inline-flexbox;
+}
+
+.info-text{
+    text-align: left;
+    text-justify: distribute;
+    width: 250px;
+}
+
+.sidebar-nav{
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    
+}
+
+.cover-and-info{
+    margin-top: 5%;
+    padding: 1%;
+}
