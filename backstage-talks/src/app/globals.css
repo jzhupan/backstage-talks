@@ -1,10 +1,24 @@
+*{
+    background-color: rgb(255, 137, 157);
+}
+
+.header-container{
+    position: fixed;
+    width: 94%;
+    height: 10px;
+    margin-top: -5%;
+}
+
+
 .title-text{
     float: left;
+    
 }
 .contact-text{
-    align-items: baseline;
+
     float: right;
-    text-align: right;   
+    text-align: right;  
+     
 }
 
 .container {
