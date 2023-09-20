@@ -1,18 +1,27 @@
 import React from 'react'
-import { Scroll1 } from './Scroll1'
-import { Scroll2 } from './Scroll2'
-import { Scroll3 } from './Scroll3'
-import { Scroll4 } from './Scroll4'
-import { Scroll5 } from './Scroll5'
+import bookShelf from '../local-json/bookShelf.json'
+import Image from 'next/image'
+
 
 export const ScrollContent = () => {
+  const data = require('../local-json/bookShelf.json')
+  console.log(data)
+   
+
   return (
     <div className='scroll-container'>
-        <section className='child'><Scroll1 /></section>
-        <section className='child'><Scroll2 /></section>
-        <section className='child'><Scroll3 /></section>
-        <section className='child'><Scroll4 /></section>
-        <section className='child'><Scroll5 /></section>
+        {bookShelf && data.map((book) => ( 
+              <section className='cover-and-info' key={book.id}
+              id={book.id}
+              >
+                <Image className='book-cover' src={book.imageUrl} alt='placeholder image' width={300} height={400}/>
+                <h3>{book.name}</h3>
+                <h4>BUY HERE (Europe)</h4>
+                <h4>BUY HERE (UK & Overseas)</h4>
+                <h4>or in selected stores</h4>
+              </section>
+              
+            ))}
     </div>
   )
 }
