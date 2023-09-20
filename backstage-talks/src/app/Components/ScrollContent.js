@@ -11,7 +11,7 @@ export const ScrollContent = () => {
   return (
     <div className='scroll-container'>
         {bookShelf && data.map((book) => ( 
-              <section className='cover-and-info' key={book.id}
+              <section className='child' key={book.id}
               id={book.id}
               >
                 <Image className='book-cover' src={book.imageUrl} alt='placeholder image' width={300} height={400}/>

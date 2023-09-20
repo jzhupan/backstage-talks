@@ -26,9 +26,17 @@
 
 
 .scroll-container {
+    margin: 5%;
     align-content: center;
     text-align: center; 
-    
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(500px);
+    scroll-snap-type: y mandatory;
+}
+
+.child{
+    padding: 3%;
+    scroll-snap-align: start;
 }
 
 .book-cover{
