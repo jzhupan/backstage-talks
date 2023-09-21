@@ -1,10 +1,7 @@
-*{
-    
-}
 
 .home-container{
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .header-container{
@@ -27,14 +24,16 @@
 
 .scroll-container {
     align-items: center;
-    height: 600px;
-    margin: 5%;
+    width: 100%;
+    height: 700px;
+    margin-top: 5%;
     align-content: center;
     text-align: center; 
     overflow-y: scroll;
     scroll-snap-type: mandatory;
-    -ms-scroll-snap-points-y: repeat(350px);
-    scroll-snap-type: y mandatory;
+    -ms-scroll-snap-points-y: repeat(100px);
+    scroll-snap-type: y proximity;
+ 
 }
 
 .scroll-container::-webkit-scrollbar{
@@ -48,16 +47,15 @@
 
 .book-cover{
     box-shadow: 1px 1px 15px 1px grey ;
+    color: white;
 }
 
-.text-container{
-
+.body-text-container{
     text-align: left;
     text-justify: distribute;
     width: 250px;
-    padding-top: 30%;
+    padding-top: 35%;
 }
-
 
 
 .sidebar-nav{
@@ -67,11 +65,27 @@
     padding: 5% 1% 0 5%;
 }
 
+.pink{
+    background-color: #FFC0CB;
+    color: white;
+}
 
+.lime-green{
+    background-color: #8BE663;
+    color: white;
+}
 
-.footer{
-    text-align: left;
+.cyan{
+    background-color: #60EFF3;
+    color: white;
+}
 
-    margin-top: -1%;
-    float: left;
+.yellow{
+    background-color: #FFC84A;
+    color: white;
+}
+
+.blue{
+    background-color: #4836FF;
+    color: white;
 }

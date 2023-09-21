@@ -2,34 +2,32 @@
     {
       "name": "Issue #1",
       "id": 1,
-      "imageUrl": "https://placehold.co/300x400/FFC0CB/FFFFFF/png",
+      "imageUrl": "https://placehold.co/300x400/png",
       "title": "quidem molestiae enim"
       },
       {
       "name": "Issue #2",
       "id": 2,
-      "imageUrl": "https://placehold.co/300x400/8BE663/FFFFFF/png",
+      "imageUrl": "https://placehold.co/300x400/png",
       "title": "sunt qui excepturi placeat culpa"
       },
       {
       "name": "Issue #3",
       "id": 3,
-      "imageUrl": "https://placehold.co/300x400/60EFF3/FFFFFF/png",
+      "imageUrl": "https://placehold.co/300x400/png",
       "title": "omnis laborum odio"
       },
       {
       "name": "Issue #4",
       "id": 4,
-      "imageUrl": "https://placehold.co/300x400/FFC84A/FFFFFF/png",
+      "imageUrl": "https://placehold.co/300x400/png",
       "title": "non esse culpa molestiae omnis sed optio"
       },
       {
       "name": "Issue #5",
       "id": 5,
-      "imageUrl": "https://placehold.co/300x400/4836FF/FFFFFF/png",
+      "imageUrl": "https://placehold.co/300x400/png",
       "title": "eaque aut omnis a"
       }
     
   ]
-  
-
